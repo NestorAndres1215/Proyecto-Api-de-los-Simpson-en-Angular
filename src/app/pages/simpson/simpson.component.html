@@ -1,0 +1,14 @@
+<app-navbar></app-navbar>
+<br>
+<div class="text-center" style="color: rgb(4, 121, 255);">
+  <h2 class="simpsons-title ">Personajes de Los Simpson</h2>
+</div>
+<br> 
+
+  <div class="simpsons-container">
+    <div class="simpsons-card" *ngFor="let personaje of personajes">
+      <h3 >{{ personaje.Nombre }}</h3>
+      <hr>
+      <img [src]="personaje.Imagen" alt="{{ personaje.Nombre }}" class="simpsons-avatar">
+      
+  </div>

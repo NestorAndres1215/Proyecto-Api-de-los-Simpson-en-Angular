@@ -1,0 +1,49 @@
+
+.simpsons-title {
+  font-family: 'Bongo', cursive;
+  font-size: 48px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+
+
+.simpsons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.simpsons-card {
+  width: 300px;
+  background-color: #fefefe;
+
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.simpsons-avatar {
+  width: 200px;
+  height: 250px;
+  margin: 0 auto;
+  display: block;
+}
+
+.simpsons-name {
+  color: #1C1C1C;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.simpsons-gender {
+  color: #808080;
+  font-size: 14px;
+}
+
+.simpsons-history {
+  color: #1C1C1C;
+  font-size: 14px;
+  margin-top: 10px;
+}
